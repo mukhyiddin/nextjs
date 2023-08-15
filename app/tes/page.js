@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios';
 
 
-export default function tes() {
+export default function Tes() {
   const [getSum,setSum]= useState(1)
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
